@@ -30,7 +30,7 @@ jobs:
         cd packages/druware-components
         npm ci
         npm run build
-        npm publish  --provenance --access public
+        npm publish
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
